@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/styles/index.css">
+    <link rel="stylesheet" href="path-to-the-file/splide.min.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./css/header.css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+</head>
+<body>
+  <header>
+    <div id="hamburgerMenuBtn" class="menuIconContainer">
+      <span>
+        <i class="fa-solid fa-bars"></i>
+      </span>
+    </div>
+    <div class="logoContainer">
+      <img src="./assets/images/logo-1.jpeg" alt="" />
+    </div>
+    <nav id="navBar">
+      <ul>
+        <li>
+          <a href="#">SHOW ALL TYRES</Link>
+        </li>
+        <li>
+          <a href="#">FIND A DEALER</a>
+        </li>
+        <li>
+          <a href="#">GUIDES & VIDEOS</a>
+        </li>
+        <li>
+          <a href="#">GO WITH</a>
+        </li>
+        <li>
+          <a href="#">SERVICE & HELP</a>
+        </li>
+      </ul>
+
+    </nav>
+  </header>
+
+    <main>
+
+        <section class="design" id="exterior">
+            <h1>Nothing can stop
+             you</h1>
+            <button>FIND OUT MORE</button>
+          </section>
+ <div class="contetleft">
+            <h1>Featured Products</h1>
+           </div>
+          <section class="left">
+          
+            <div class="slide-container swiper mySwiper">
+             
+              <div class="slide-content swiper-wrapper ">
+          <div class="card-wrapper swiper-slide ">
+            <div class="card">
+              
+              <div class="card-container">
+                <h2 class="name">ICEWAYS</h2>
+                <p class="description">
+                  City life is changing. So are the habits of urban citizens. 4X4
+                      cars that were previously used only on challenging lands are now
+                      preferred for urban use.
+                </p>
+              
+                <button  class="button btnc"> Find a Dealer</button>
+                <button class="button btn"> Find a Dealer</button>
+        
+              </div>
+        
+            </div>
+          </div>
+        
+          <div class="card-wrapper swiper-slide ">
+            <div class="card">
+              
+              <div class="card-container">
+                <h2 class="name">ICEWAYS</h2>
+                <p class="description">
+                  City life is changing. So are the habits of urban citizens. 4X4
+                      cars that were previously used only on challenging lands are now
+                      preferred for urban use.
+                </p>
+              
+                <button  class="button btnc"> Find a Dealer</button>
+                <button class="button btn"> Find a Dealer</button>
+        
+              </div>
+        
+            </div>
+          </div>
+          
+          <div class="card-wrapper swiper-slide ">
+            <div class="card">
+              
+              <div class="card-container">
+                <h2 class="name">ICEWAYS</h2>
+                <p class="description">
+                  City life is changing. So are the habits of urban citizens. 4X4
+                      cars that were previously used only on challenging lands are now
+                      preferred for urban use.
+                </p>
+              
+                <button class="button btnc"> Find a Dealer</button>
+                <button class="button btn"> Find a Dealer</button>
+        
+              </div>
+        
+            </div>
+          </div>
+         
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+            
+          </section>
+
+    </main>
+
+
+    <section class="bottomfnd">
+      <div class="content-bottom">
+       <h1>Feel the excellent wet braking with Driveways!</h1> 
+       <button>Watch All Videos</button>
+      </div>
+    
+      <iframe class="iframe" width="560" height="315" src="https://www.youtube.com/embed/St6KaZDDr5A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    </section>
+   
+    
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        centeredSlides: true,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          type: "fraction",
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+  
+      
+    </script>
+
+ 
+    
+
+</body>
+</html>
